@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Winnipeg",
+    "description": "Comida mediterránea, tapas, paellas, pescados y mariscos.",
+    "image": "https://assets.website-files.com/62224ec8e11529a359795bdc/62a8d47f8ed75a899dacf409_6241d05007b0a1045073ab4b_Winnipeg.jpeg",
+    "category": "Restaurant",
+    "location": "Av. Italia 1654 Ñuñoa",
+    "profile": "https://www.instagram.com/Winnipegrestomar/"
+  },
+  {
+    "id": 2,
+    "name": "Verde Sazón",
+    "description": "Propuesta gastronómica vegetariana que rompe prejuicios.",
+    "image": "https://assets.website-files.com/62224ec8e11529a359795bdc/62a8d47ebd00c52aa1f57a0e_6241cf86a21e87b1f63d1241_Verde%2520Sazo%25CC%2581n.jpeg",
+    "category": "Restaurant",
+    "location": "Av. Italia 857 Providencia",
+    "profile": "https://www.instagram.com/verdesazonchile/"
+  },
+  {
+    "id": 3,
+    "name": "Emporio Criollo",
+    "description": "Resto-Bar & lounge, cervezas, vinos, pizzas, hamburguesas ,tablas ,veggie food",
+    "image": "https://assets.website-files.com/62224ec8e11529a359795bdc/62a8d46f6e4ee82b1f08329b_62430c84f83d087b31c7d0c5_Emporio%2520Criollo.jpeg",
+    "category": "Bar",
+    "location": "Av. Condell 1401 Local 5 Providencia Napolitana",
+    "profile": "https://www.instagram.com/emporiocriollo/"
+  },
+  {
+    "id": 4,
+    "name": "The Jazz Corner",
+    "description": "Somos un club de jazz y blues, ubicado en el corazón de barrio Italia con mas de 9 años de vigencia",
+    "image": "https://assets.website-files.com/62224ec8e11529a359795bdc/62a8d47c0395742fddb5a09c_6241cab8a21e87e3ac3cf13b_The%2520Jazz%2520Corner.jpeg",
+    "category": "Bar",
+    "location": "Santa Isabel 451 Providencia",
+    "profile": "https://www.instagram.com/THEJAZZCORNER/"
+  },
+  {
+    "id": 5,
+    "name": "Estudio Villagran",
+    "description": "Marca de diseño de autor, exclusiva y de vanguardia.",
+    "image": "https://assets.website-files.com/62224ec8e11529a359795bdc/62a8d47d23647933d670c689_6241cb954b58cf76b40c591b_Villagran.jpeg",
+    "category": "Moda",
+    "location": "Av. Italia 1337 Local 19 Providencia",
+    "profile": "http://instagram.com/ESTUDIOVILLAGRAN"
+  },
+  {
+    "id": 6,
+    "name": "On Óptica",
+    "description": "Lentes ópticos, cristales con calidad de laboratorio.",
+    "image": "https://assets.website-files.com/62224ec8e11529a359795bdc/62a8d4774430cd7c47a56c93_624f108003569069b30fca07_On%2520Optica.jpeg",
+    "category": "Moda",
+    "location": "Av. Italia 1334 Local 1 Providencia Mestiza",
+    "profile": "http://instagram.com/ON.OPTICA"
+  },
+  {
+    "id": 7,
+    "name": "What The Cup?",
+    "description": "Diseño con productos hechos a mano. impulsando extender la vida útil de productos con estilo.",
+    "image": "https://assets.website-files.com/62224ec8e11529a359795bdc/62a8d47e343f6120d7c1cc81_624f10250689d345162c7759_What%2520the%2520cup.jpeg",
+    "category": "Decoración",
+    "location": "Av. Italia 1558 Local 8 Ñuñoa El Delirio",
+    "profile": "http://instagram.com/Whathecup_"
+  },
+  {
+    "id": 8,
+    "name": "Tienda Pkboo",
+    "description": "Las mil caras del gatito de la suerte.",
+    "image": "https://assets.website-files.com/62224ec8e11529a359795bdc/62a8d47d197fab3ef91876b2_6241cb7d8ba3e85cb01de543_Pkboo.jpeg",
+    "category": "Decoración",
+    "location": "Av. Italia 1568 Local 5 Ñuñoa El Delirio",
+    "profile": "http://instagram.com/tienda_pkboo"
+  },
+  {
+    "id": 9,
+    "name": "Qué Leo Barrio Italia",
+    "description": "Librería general dedicada especialmente a la literatura.",
+    "image": "https://assets.website-files.com/62224ec8e11529a359795bdc/62a8d479184de000e7e8fd81_623e2c4a8106d44adedadb51_Que%2520leo.jpeg",
+    "category": "Cultura",
+    "location": "Av. Italia 1471 Local 1 Providencia Italia",
+    "profile": "http://instagram.com/QUELEO_ITALIA"
+  },
+  {
+    "id": 10,
+    "name": "Pop Up!",
+    "description": "Libros desplegables pop-up. libros 3d para todas las edades! Harry Potter, star wars, etc…",
+    "image": "https://assets.website-files.com/62224ec8e11529a359795bdc/62a8d4790436298ee5449107_623e2c2d9d7adc737d13be85_Pop%2520Up!.jpeg",
+    "category": "Cultura",
+    "location": "Av. Italia 1206 Local 8 Providencia Italia",
+    "profile": "http://pop-up.cl/"
+  },
+  {
+    "id": 11,
+    "name": "Farmacia La Botica Italia",
+    "description": "Farmacia independiente",
+    "image": "https://assets.website-files.com/62224ec8e11529a359795bdc/62a8d47065eb0f566d608a01_623e2a257bfefb579cb31667_Botica%2520Italia.jpeg",
+    "category": "Bienestar",
+    "location": "Santa Isabel 0301 Providencia",
+    "profile": "http://instagram.com/laboticaitalia"
+  },
+  {
+    "id": 12,
+    "name": "Citic",
+    "description": "Codiseño, cowork con cafetería, prácticas y arriendo de salas",
+    "image": "https://assets.website-files.com/62224ec8e11529a359795bdc/62a8d46decd9108f47a01c6d_62430db47e3673fe7787560a_Citic_Logotipo_color1.png",
+    "category": "Otros",
+    "location": "Condell 1337 Providencia",
+    "profile": "http://instagram.com/citic.espacios"
+  },
+  {
+    "id": 13,
+    "name": "Shivano",
+    "description": "Todo lo que buscas para una divertida tarde en familia",
+    "image": "https://assets.website-files.com/62224ec8e11529a359795bdc/62a8d47b550d5c76bd9eec96_623e2c9d12d83f9ed895c1dc_Shivano.jpeg",
+    "category": "Otros",
+    "location": "Av. Italia 1195 Local 1 Providencia Itadeco",
+    "profile": "http://instagram.com/citic.espacios"
+  },
+  {
+    "id": 14,
+    "name": "Riccia Kids",
+    "description": "'La magia de jugar'",
+    "image": "https://assets.website-files.com/62224ec8e11529a359795bdc/62a8d47a5969740bc52b7d78_623e2c5e7bfefbbca7b32874_Riccia%2520Kids.jpeg",
+    "category": "Otros",
+    "location": "Av. Italia 1333 Local 1 y 2 Providencia Siete Colores",
+    "profile": "http://riccia.cl/"
+  },
+  {
+    "id": 15,
+    "name": "Olinalá Diseño Infantil",
+    "description": "Diseñamos y fabricamos mobiliario infantil ensamblado.",
+    "image": "https://assets.website-files.com/62224ec8e11529a359795bdc/62a8d479a6bce2873fd0b624_623e2be3ca335f77c682c713_Olinala.jpeg",
+    "category": "Otros",
+    "location": "Av. Italia 1206 Local 7 Providencia Italia",
+    "profile": "http://olinala.cl/"
+  }
+]

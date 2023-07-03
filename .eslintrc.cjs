@@ -20,6 +20,7 @@ module.exports = {
   rules: {
     'jsx-quotes': ['error', 'prefer-single'],
     'react/react-in-jsx-scope': 'off',
-    '@typescript-eslint/explicit-function-return-type': 'off'
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    'multiline-ternary': 'off'
   }
 }
