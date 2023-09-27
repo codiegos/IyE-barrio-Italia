@@ -27,7 +27,7 @@ function Stores() {
   return (
     <section
       className='bg-primary/10 flex flex-col items-center py-24 sm:py-32'
-      id='#stores'
+      id='stores'
     >
       <div className='container flex flex-col items-center justify-center gap-8 xl:gap-12'>
         <h1 className='text-3xl sm:text-4xl lg:text-6xl text-center'>

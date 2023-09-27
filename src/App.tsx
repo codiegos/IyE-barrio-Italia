@@ -9,7 +9,7 @@ import Stores from './components/Stores'
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
       <main className='w-full h-screen scroll-smooth'>
         <Home />
@@ -20,7 +20,7 @@ function App() {
         <Contact />
         <Footer />
       </main>
-    </div>
+    </>
   )
 }
 

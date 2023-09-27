@@ -6,7 +6,7 @@ function About() {
   return (
     <section
       className=' flex flex-col items-center py-24 sm:min-h-screen sm:py-32'
-      id='#about'
+      id='about'
     >
       <div className='container flex flex-col items-center justify-center gap-8 xl:gap-12'>
         <h1 className='text-3xl sm:text-4xl lg:text-6xl text-center'>

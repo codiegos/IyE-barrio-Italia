@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@700&display=swap');
 :root {
   --primary: #c7f2f5;
   --secondary: #00c7d1;
 }
+
 @tailwind base;
 /* Firefox */
 * {
@@ -44,4 +45,8 @@ input:-webkit-autofill:active {
   .hamburger div:last-child {
     @apply -rotate-45 -translate-y-1;
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }

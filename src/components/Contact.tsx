@@ -3,8 +3,8 @@ import GoogleMap from './GoogleMap'
 function Contact() {
   return (
     <section
-      className='bg-gradient-to-b to-50% from-teal-50 flex flex-col items-center py-24 sm:py-32'
-      id='#contact'
+      className='bg-gradient-to-b to-50% from-primary/5 flex flex-col items-center py-24 sm:py-32'
+      id='contact'
     >
       <div className='container flex flex-col justify-center gap-8 xl:gap-12'>
         <h1 className='text-3xl lg:text-6xl text-center'>¿ERES LOCATARIO?</h1>

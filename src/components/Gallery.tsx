@@ -2,7 +2,7 @@ function Gallery() {
   return (
     <section
       className=' flex flex-col items-center py-24 sm:min-h-screen sm:py-32'
-      id='#gallery'
+      id='gallery'
     >
       <div className='container flex flex-col items-center justify-center gap-8 xl:gap-12'>
         <h1 className='text-3xl lg:text-6xl text-center'>GALERÍA</h1>

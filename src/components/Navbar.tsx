@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className='flex items-center justify-between'>
         {/* BEGIN Logo */}
         <nav className='flex flex-grow basis-0 z-20'>
-          <a href='#inicio'>
+          <a href='#home'>
             <img
               src={logo}
               alt='logo-jardin-las-ardillitas'
