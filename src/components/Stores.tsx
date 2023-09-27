@@ -1,10 +1,10 @@
-import { useState } from 'react'
-import { categories, type Store } from '../types.d'
+import {useState} from 'react'
+import {categories, type Store} from '../types.d'
 import stores from '../mocks/stores.json'
 import ModalStore from './ModalStore'
-import { LocationIcon } from './Icons'
+import {LocationIcon} from './Icons'
 
-function Stores () {
+function Stores() {
   const [filterByCategory, setFilterCategory] = useState<string>('Moda')
   const [showModal, setShowModal] = useState<boolean>(false)
   const [dataStore, setDataStore] = useState<Store>({
@@ -14,10 +14,10 @@ function Stores () {
     image: '',
     description: '',
     location: '',
-    profile: ''
+    profile: '',
   })
   const filteredStores = stores.filter(
-    store => store.category === filterByCategory
+    (store) => store.category === filterByCategory
   )
   const handleStoreClick = (store: Store) => {
     setShowModal(true)
@@ -25,7 +25,10 @@ function Stores () {
   }
 
   return (
-    <section className='bg-primary/10 flex flex-col items-center py-24 sm:py-32'>
+    <section
+      className='bg-primary/10 flex flex-col items-center py-24 sm:py-32'
+      id='#stores'
+    >
       <div className='container flex flex-col items-center justify-center gap-8 xl:gap-12'>
         <h1 className='text-3xl sm:text-4xl lg:text-6xl text-center'>
           COMERCIOS
@@ -34,7 +37,10 @@ function Stores () {
         <div className='text-3xl text-center text-primary border-y border-gray-300'>
           <ul className='grid grid-cols-2 place-items-center md:grid-cols-10'>
             {categories.map((category, i) => (
-              <li className='w-full' key={i}>
+              <li
+                className='w-full'
+                key={i}
+              >
                 <button
                   onClick={() => {
                     setFilterCategory(category)

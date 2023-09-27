@@ -1,14 +1,20 @@
 import GoogleMap from './GoogleMap'
 
-function Contact () {
+function Contact() {
   return (
-    <section className='bg-gradient-to-b to-50% from-teal-50 flex flex-col items-center py-24 sm:py-32'>
+    <section
+      className='bg-gradient-to-b to-50% from-teal-50 flex flex-col items-center py-24 sm:py-32'
+      id='#contact'
+    >
       <div className='container flex flex-col justify-center gap-8 xl:gap-12'>
         <h1 className='text-3xl lg:text-6xl text-center'>¿ERES LOCATARIO?</h1>
         <div className='container flex flex-col lg:flex-row lg:gap-0 gap-16 justify-evenly items-center w-full py-4'>
           <form className='text-xl flex flex-col justify-center gap-6 w-full max-w-3xl border p-4 rounded'>
             <div>
-              <label htmlFor='name' className='mb-3 block text-orange-500'>
+              <label
+                htmlFor='name'
+                className='mb-3 block text-orange-500'
+              >
                 Nombre Completo
               </label>
               <input
@@ -20,7 +26,10 @@ function Contact () {
               />
             </div>
             <div>
-              <label htmlFor='email' className='mb-3 block text-orange-500'>
+              <label
+                htmlFor='email'
+                className='mb-3 block text-orange-500'
+              >
                 Correo Electrónico
               </label>
               <input
@@ -32,7 +41,10 @@ function Contact () {
               />
             </div>
             <div>
-              <label htmlFor='subject' className='mb-3 block text-orange-500'>
+              <label
+                htmlFor='subject'
+                className='mb-3 block text-orange-500'
+              >
                 Asunto
               </label>
               <input
@@ -44,7 +56,10 @@ function Contact () {
               />
             </div>
             <div>
-              <label htmlFor='message' className='mb-3 block text-orange-500'>
+              <label
+                htmlFor='message'
+                className='mb-3 block text-orange-500'
+              >
                 Mensaje
               </label>
               <textarea

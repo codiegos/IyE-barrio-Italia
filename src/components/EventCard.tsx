@@ -5,11 +5,14 @@ interface EventsProps {
   description: string
 }
 
-export function EventCard ({ name, title, image, description }: EventsProps) {
+export function EventCard({name, title, image, description}: EventsProps) {
   return (
     <div className='bg-white flex flex-col max-w-sm mx-auto rounded-lg shadow-xl'>
       <div>
-        <img src={image} className='h-96 w-full object-cover' />
+        <img
+          src={image}
+          className='h-96 w-full object-cover'
+        />
       </div>
       <div className='bg-gray-900 mx-4 rounded-lg flex items-center gap-2 -mt-8 z-10 shadow-xl py-2 px-6'>
         <h3 className='text-white text-lg font-semibold'>{name}</h3>

@@ -1,15 +1,15 @@
-import { useState } from 'react'
+import {useState} from 'react'
 import logo from '../assets/icons/logo.png'
-import { FacebookIcon, InstagramIcon } from './Icons'
-import { type NavItem } from '../types'
+import {FacebookIcon, InstagramIcon} from './Icons'
+import {type NavItem} from '../types'
 
 const navItems: NavItem[] = [
-  { key: 'inicio', label: 'Inicio', link: '#inicio' },
-  { key: 'nosotros', label: 'Sobre el Barrio', link: '#nosotros' },
-  { key: 'eventos', label: 'Eventos', link: '#eventos' },
-  { key: 'galeria', label: 'Galeria', link: '#galeria' },
-  { key: 'comercios', label: 'Comercios', link: '#comercios' },
-  { key: 'contacto', label: 'Contacto', link: '#contacto' }
+  {key: 'inicio', label: 'Inicio', link: '#home'},
+  {key: 'nosotros', label: 'Sobre el Barrio', link: '#about'},
+  {key: 'eventos', label: 'Eventos', link: '#events'},
+  {key: 'galeria', label: 'Galeria', link: '#gallery'},
+  {key: 'comercios', label: 'Comercios', link: '#stores'},
+  {key: 'contacto', label: 'Contacto', link: '#contact'},
 ]
 const Navbar = () => {
   const [closeMenu, setCloseMenu] = useState(false)
@@ -36,7 +36,7 @@ const Navbar = () => {
             id='hamburger'
             checked={closeMenu}
             className='peer'
-            onChange={e => {
+            onChange={(e) => {
               setCloseMenu(e.target.checked)
             }}
             hidden
@@ -60,7 +60,7 @@ const Navbar = () => {
             <div className='flex flex-col h-full justify-between lg:items-center lg:flex-row'>
               {/* BEGIN Nav items */}
               <ul className='px-6 pt-32 space-y-8 md:px-12 lg:space-y-0 lg:flex lg:space-x-12 lg:pt-0'>
-                {navItems.map(({ key, label, link }) => (
+                {navItems.map(({key, label, link}) => (
                   <li key={key}>
                     <a
                       href={link}

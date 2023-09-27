@@ -1,8 +1,11 @@
-import { EventCard } from './EventCard'
+import {EventCard} from './EventCard'
 
-function Team () {
+function Team() {
   return (
-    <section className='bg-primary flex flex-col items-center py-24 sm:py-32'>
+    <section
+      className='bg-primary flex flex-col items-center py-24 sm:py-32'
+      id='#events'
+    >
       <div className='container flex flex-col items-center justify-center gap-8 xl:gap-12'>
         <h1 className='text-3xl sm:text-4xl lg:text-6xl text-center text-white'>
           EVENTOS
